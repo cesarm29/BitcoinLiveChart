@@ -1,0 +1,39 @@
+<div class="container">
+
+
+  <div style="text-align:center">
+    <h1>
+      <span class="label label-success">Bitcoin Live Price Chart</span>
+    </h1>
+    <h1>
+
+    </h1>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="text-center">
+        <h3>
+          <span class="label label-primary">BTC to COP rate: {{inrRate | currency:'COP':true}}</span>
+        </h3>
+      </div>
+      <div #chartTarget>
+        chart target
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="text-center">
+        <h3>
+          <span class="label label-primary">BTC to USD rate: {{usdRate | currency:'USD':true}}</span>
+        </h3>
+      </div>
+      <div #usdChartTarget>
+        chart target
+      </div>
+    </div>
+  </div>
+
+  <footer>
+  </footer>
+</div>
